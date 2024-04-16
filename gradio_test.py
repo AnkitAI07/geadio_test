@@ -23,9 +23,9 @@ inputs = [
     gr.Textbox(lines=5, label="Enter the Blog Topic"),
     gr.Textbox(lines=1, label="No of Words"),
     gr.Dropdown(choices=[
-        'meta-llama/Llama-2-7b-chat',  # Fully qualified model name
-        'EleutherAI/gpt-neo-2.7B',  # Corrected model name
-        'facebook/bart-base'  # Potential alternative model
+        'meta-llama/Llama-2-7b-chat', 
+        'EleutherAI/gpt-neo-2.7B', 
+        'facebook/bart-base'  
     ], label="Choose a Model", value="meta-llama/Llama-2-7b-chat")  # Set initial value
 ]
 
